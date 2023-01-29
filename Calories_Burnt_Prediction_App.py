@@ -5,19 +5,13 @@ Created on Sun Jan 29 17:17:23 2023
 @author: HP
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 26 16:07:12 2023
-
-@author: HP
-"""
 
 import numpy as np
 import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open('D:\Machine Learning with Python\Calories Burnt Prediction\Trained_model.sav','rb'))
+loaded_model = pickle.load(open('Trained_model.sav','rb'))
 
 #creating a function for prediction
 def calories_burnt_prediction(input_data):
