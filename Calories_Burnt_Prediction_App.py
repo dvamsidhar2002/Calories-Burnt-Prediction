@@ -43,7 +43,7 @@ def main():
     predicted_value = ''
     
     #getting input data from the user
-    if st.button('Predicted price of Gold : '):
+    if st.button('Calories Burnt : '):
         predicted_value = calories_burnt_prediction([Gender,Age,Height,Weight,Duration,Heart_rate,Body_temp])
         
     st.success(predicted_value)
